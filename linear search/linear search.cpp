@@ -16,13 +16,13 @@ void input()
         if ((n > 0) && (n <= 20))
             break;
         else
-            cout << "\nArray"
+            cout << "\nArray should have minimum 1 and maximum 20 elements.\n\n";
     }
 }
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::cout << "Hello World!\n should";
 }
 
 
