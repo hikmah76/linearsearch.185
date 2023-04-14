@@ -32,4 +32,12 @@ void input()
 
 
 
+void Linearsearch()
+{
+    char ch;
+    int comparion; // Number of comparions 
+}
+
+
+
 
