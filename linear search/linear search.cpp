@@ -16,6 +16,7 @@ void input()
         if ((n > 0) && (n <= 20))
             break;
         else
+            cout << "\nArray"
     }
 }
 
