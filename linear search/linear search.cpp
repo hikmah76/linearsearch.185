@@ -40,16 +40,16 @@ void Linearsearch()
     do
     {
         // Accept the number to be searched 
-        cout << "\nEnter the element you want to search: ";
+        cout << "\nEnter the element you want to search: "; //langkah 1
         int item;
         cin >> item;
 
 
         comparison = 0;
-        for (i = 0; 1 < n; i++)
+        for (i = 0; 1 < n; i++) // langkah2,3 dan 4
         {
             comparison++;
-            if (arr[i] == item)
+            if (arr[i] == item) // langkah 5 a found
             {
                 cout << "\n" << item << " found at pasition " << (i + 1) << endl;
                 break;
