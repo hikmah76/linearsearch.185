@@ -42,6 +42,7 @@ void Linearsearch()
         // Accept the number to be searched 
         cout << "\nEnter the element you want to search: ";
         int item;
+        cin >> item;
 
 
         comparison = 0;
@@ -50,7 +51,7 @@ void Linearsearch()
             comparison++;
             if (arr[i] == item)
             {
-                cout << "\n" << item << "found at pasition" << (i + 1) << endl;
+                cout << "\n" << item << " found at pasition " << (i + 1) << endl;
                 break;
             }
         }
